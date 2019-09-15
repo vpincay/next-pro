@@ -49,6 +49,7 @@ Tablas:
         'views/res_users_view.xml',
         'views/shop_views.xml',
         'data/einvoice_data.xml',
+		'data/einvoice_data_25.xml',
         'data/account_data.xml',        
         'views/res_config_settings_views.xml',
         'security/einvoice_base_security.xml',
