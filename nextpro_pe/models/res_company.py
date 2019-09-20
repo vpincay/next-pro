@@ -10,10 +10,10 @@ class ResCompany(models.Model):
     agente_retencion = fields.Boolean(string="Agente de retencion")
     buen_contribuyente = fields.Boolean(string="Buen contribuyente")
     plan_contable = fields.Selection(
-        string= "Plan contable",
-        default='01', 
-        selection=[("01", "01. General empresarial"), 
-                    ("02", "02. Por definir")]     
+        string = "Plan contable",    
+        selection = [("01", "01. General empresarial"), 
+                    ("02", "02. Por definir")],
+        default = "01"
     )
     
 # FIN ResCompany
