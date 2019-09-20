@@ -11,8 +11,8 @@ class ResCompany(models.Model):
     buen_contribuyente = fields.Boolean(string="Buen contribuyente")
     plan_contable = fields.Selection(
         string= "Plan contable", 
-        selection=[("01", "General empresarial"), 
-                    ("02", "Por definir")]     
+        selection=[("01", "01. General empresarial"), 
+                    ("02", "02. Por definir")]     
     )
     
 # FIN ResCompany
