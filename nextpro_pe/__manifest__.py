@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "nextpro_pe",
+    'name': "NEXT-PRO - Localizacion peru",
 
     'summary': "Localizacion peru",
 
