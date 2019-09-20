@@ -11,7 +11,7 @@
 	                <page name="info_sunat" string="SUNAT">
 	                        <group cols="4"  string="Configuración">
 	                            <group>
-									<!-- <field name="razon_social"/> -->
+									<field name="razon_social"/>
 			                        <field name="ruc"/>
 			                        <field name="agente_retencion"/>
 									<field name="buen_contribuyente"/>
